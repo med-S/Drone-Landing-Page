@@ -1,0 +1,88 @@
+/* Theme */
+
+#switcher .theme-click {
+    background-color: #3065b5;
+}
+
+
+/*background*/
+
+.btn-md,
+.btn-border:hover,
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span,
+.fixed-top.scrolled,
+.service-box:hover .service-icon,
+.dr-works .media:hover .work-icon,
+.dr-subscribe,
+.social-icons span:hover,
+.back-to-top {
+    background: #3065b5;
+}
+
+
+/*color*/
+
+.navbar.fixed-top.scrolled .login-links .btn-border,
+.btn-border,
+.btn-white,
+btn-white:focus,
+.service-icon span,
+.work-icon span,
+.client-post,
+.footer-services li a:hover,
+.social-icons li:hover a,
+.back-to-top:hover span,
+.back-to-top:focus span {
+    color: #3065b5;
+}
+
+
+/*buttons*/
+
+.btn-md:hover {
+    background: #2b7ee9;
+}
+
+.btn-border {
+    border: 2px solid #3065b5;
+}
+
+.btn-border:hover {
+    color: #fff;
+}
+
+@media (min-width: 991px) {
+    .navbar-nav li.active a,
+    navbar-nav li.active a:focus,
+    .navbar-nav li:focus a,
+    .nav-item.active a {
+        color: #3065b5;
+    }
+}
+
+
+/*header-bg*/
+
+.header-buttons .btn-md:hover,
+.header-buttons .btn-white:hover,
+.header-buttons .btn-md:focus,
+.header-buttons .btn-white:focus,
+.btn:not([disabled]):not(.disabled).active,
+.btn:not([disabled]):not(.disabled):active {
+    background: linear-gradient(45deg, #20aef4 0%, #4372e3 100%);
+    color: #fff;
+}
+
+.service-box:hover .service-icon,
+.dr-works .media:hover .work-icon {
+    -webkit-box-shadow: 0 0 0 4px #8eb5ef;
+    box-shadow: 0 0 0 4px #8eb5ef;
+}
+
+
+/*gallery*/
+
+.hovereffect a span:hover {
+    background-color: rgba(32, 174, 244, 0.81);
+}
